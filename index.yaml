@@ -1,14 +1,14 @@
 apiVersion: v1
 entries:
-  minio:
+  vulntest:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-09-19T15:42:01.365984446+08:00"
+    created: "2024-04-02T21:00:51.17803216-04:00"
     description: A Helm chart for Kubernetes
-    digest: 136fec3a25b800d0d850ca7536a00c1f1ba3e5a95a4e27854c7ad135a4b77d81
-    name: minio
+    digest: 53eee9b589bc8a7d45363e61713d92e6b4a006d74f3bfed463490b7b6f6a859c
+    name: vulntest
     type: application
     urls:
-    - minio-5.0.9.tgz
-    version: 5.0.9
-generated: "2024-04-02T15:42:01.365348311+08:00"
+    - vulntest/vulntest-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-04-02T21:00:51.177538399-04:00"
